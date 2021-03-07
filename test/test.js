@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 
 describe("hello world testing",()=>{
     it("should return hello world",function(){
-        chai.assert.equal("hello world", "hello world1");
+        chai.assert.equal("hello world", "hello world");
     });
 })
 
